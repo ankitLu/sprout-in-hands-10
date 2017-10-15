@@ -1,0 +1,619 @@
+/*
+Theme Name: Sprout in Hands
+Theme URI: http://www.dedicatedwpthemes.com
+Description: A plant theme
+Version: 1.0
+Author: Dedicated Wordpress Themes
+Author URI: http://www.dedicatedwpthemes.com
+*/
+
+body {
+	margin: 0 auto;
+	background-color: #333;
+}
+
+
+table, img { border: 0; }
+
+
+/* ----- HEADER ----- */
+
+#header {
+	display: block;
+	margin:9px auto 2px auto;
+	width: 724px;
+	height: 314px;
+	background-image:url(./img/header.jpg);
+}
+
+#header a:link, #header a:visited { color: #fff; }
+#header a:hover { color: #478D1E; }
+
+#header p {
+	font: 9px/10px 'Lucida Grande', Verdana, arial, sans-serif;
+	color: #ccc;
+	margin: 0 0 0 25px;
+	width: 310px;
+}
+
+/* ----- MAIN AREAS ----- */
+#content {
+	margin:0 auto;
+	padding: 10px 0 0 0;
+	width: 724px;
+	background-color: #000000;
+	font: 10px/18px 'Lucida Grande', Verdana, arial, sans-serif;
+	margin-bottom:24px;
+	color: #B8B6B6;
+}
+
+#content img {
+	padding: 5px;
+	border: 1px solid #ccc;
+	margin: 5px;
+
+}
+
+#content img.wp-smiley {
+	padding: 0px;
+	border: 0px;
+	margin: 1px;
+}
+
+
+#left {
+	/* border: 1px solid #ff0000; */
+	float: left;
+	margin-top: 5px;
+	padding-top: 10px;
+	float: left;
+	width: 540px;
+	border-right: 1px solid #878686;
+}
+
+#sidebar {
+	/* border: 1px solid #00ff00; */
+ 	width: 170px;
+	margin: 0 0 0 545px;
+}
+
+
+#sidebar img { border: 0; }
+
+
+#wp-calendar {
+	margin-left: 0px;
+}
+
+#wp-calendar a{
+	background-color: #444;
+	font-weight: bold;
+}
+
+
+/* ----- FORMS ----- */
+
+form {
+	margin-top: 20px;
+}
+
+input, textarea {
+	font: 11px 'Lucida Grande', Verdana, arial, sans-serif;
+}
+
+#commentform {
+	width: 350px;
+	text-align: left;
+}
+
+#commentform p {
+	margin-bottom: 4px;
+}
+
+#commentform input, #commentform textarea {
+	width: 300px;	
+}
+
+#commentform input.field {
+	text-align: left;
+}
+
+#commentform #submit {
+	height: 24px;
+	font: bold 11px 'Lucida Grande', Verdana, arial, sans-serif;
+	color: #666;
+}
+
+.post input { /* for password protected posts */
+	font: 11px Verdana, arial, sans-serif;
+}
+
+label {
+	letter-spacing: 0;
+	color: #666;
+}
+
+label small {
+	color: #999;
+}
+
+.field { /*common to all text fields */
+	border: 1px solid #ccc;
+	background-color: #fafafa;
+	color: #666;
+}
+
+.field:hover, .field:focus {
+	border: 1px solid #9c0;
+	background-color: #fff;
+}
+
+/* search area */
+
+
+#searchform { margin: 0 auto; padding: 0 0 0 0; text-align: left; }
+
+#commentform input, textarea{
+	border: 1px solid #444;
+	background-color: #000;
+	color: #B8B6B6;
+}
+
+#commentform input:hover, textarea:hover{
+	border: 1px solid #666;
+	background-color: #444;
+}
+
+.searchbox{
+	font: 10px/12px 'Lucida Grande', Verdana, arial, sans-serif;
+	border: 1px solid #444;
+	background-color: #000;
+	color: #B8B6B6;
+	margin-right: 2px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	width: 100px;
+	height: 16px;
+}
+
+.searchbox:hover{
+	border: 1px solid #666;
+	background-color: #444;
+}
+
+.searchbutton{
+	font: 10px/12px 'Lucida Grande', Verdana, arial, sans-serif;
+	color: #333333;
+	width: 35px;
+}
+
+
+/* ----- LINKS ----- */
+
+a:link { color: #ccc; text-decoration: none; }
+a:visited { color: #ccc; text-decoration: none; }
+a:hover { color: #478D1E; text-decoration: none; }
+a:active { color: #ccc; text-decoration: none; }
+
+
+
+/* ----- TITLES ----- */
+h1 {
+	font: 32px/28px Georgia, Verdana, arial, sans-serif;
+	color: #9c0;
+	margin: 0 0 0 24px;
+	padding-top: 130px;
+	letter-spacing: -1px;
+}
+
+h3 {
+	font: bold 16px Georgia, "Times New Roman", serif;
+	letter-spacing: -1px;
+	margin: 0 0 12px 0;
+	color: #478D1E;
+}
+
+a.h3:link , a.h3:visited , a.h3:active{ color: #ccc; text-decoration: none; }
+a.h3:hover { color: #478D1E; text-decoration: none; }
+
+
+
+
+
+
+h2 {
+	display: block;
+	font: 11px/12px Georgia, "Times New Roman", serif;
+	color: #999;
+	letter-spacing: 3px;
+	margin: 8px 8px 4px 15px;
+}
+
+h2.xtra {
+	font: bold italic 24px/18px Georgia, "Times New Roman", serif;
+	text-align: center;
+	margin:12px 24px 14px 24px;
+	letter-spacing: -1px;
+	color: #999;
+}
+
+h2.xtra span {
+	color: #999;
+	font: italic 15px Georgia, "Times New Roman", serif;
+	letter-spacing: -1px;
+	padding: 0 20px 0 20px;
+}
+
+
+
+
+
+/* ----- LISTS ----- */
+
+/* posts */
+
+
+
+
+
+/* comments */
+
+div.commentform{
+	margin-top: 20px;
+}
+
+div.comments {
+	margin-left: 14px;
+}
+
+ol.commentlist {
+	margin:0 0 0 0px;
+	padding:0;
+}
+
+ol.commentlist li {
+	border: 1px dotted #808080;
+	list-style: none;
+	margin: 0px 25px 25px 0;
+	padding: 2px 2px 2px 10px;
+}
+
+ol.commentlist li p {
+	color: #cccccc;
+	line-height: 16px;
+	margin-top: 6px;
+	margin-left: 0px;
+	margin-bottom: 4px;
+}
+
+ol.commentlist li p.metadate {
+	margin: 0 0 14px 16px;
+	font-size: 9px;
+	color: #666;
+	padding-bottom: 4px;
+}
+
+.comment_author {
+	font: 13px Georgia, "Times New Roman", serif;
+	font-weight: bold;
+	line-height: 14px;
+	margin-left: 16px;
+}
+
+/* posts, main */
+
+div#pinned{ 
+	background:#9c0;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+div.post{ 
+	margin: 0px 20px 35px 20px; 
+	padding: 0;
+}
+
+
+.post hr {
+	height: 5px;
+	visibility:hidden;
+}
+
+.post p {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.post p.thedate {
+	font: normal 9px/9px Georgia, "Times New Roman", serif;
+	color: #999;
+	letter-spacing: 2px;
+	margin-bottom: 4px;
+}
+
+/* blockquotes */
+
+* html blockquote{height: 1%;} /* ie hack */
+* html li{height: 1%;} /* ie hack */
+
+blockquote {
+	border: 1px dotted #878686;
+	background: url('img/quote.gif') no-repeat;
+	font: 10px/16px Georgia, "Times New Roman", serif;
+	display: block;
+	padding: 0 10px 6px 12px;
+	color: #888;
+	margin: 0 16px 15px 16px;
+}
+
+.post blockquote p {
+	margin:0;
+}
+
+
+/* meta */
+
+div.cat {
+	border-top: 1px dotted #878686;
+	border-bottom: 1px dotted #878686;
+	margin: 15px 0px 0px 0px;
+	padding: 0px 0px 0px 4px;
+}
+
+div.meta {
+	border-top: 1px dotted #878686;
+	border-bottom: 1px dotted #878686;
+	margin: 15px 0 0 0;
+	padding: 4px 4px 4px 4px;
+}
+
+
+
+div.meta p {
+	font-size: 9px;
+	line-height: 16px;
+	color: #999;
+	margin: 0;
+}
+
+div.meta span {
+	color: #666;
+}
+
+/* navigation */
+.navigation{
+	text-align: center;
+	padding-bottom: 30px;
+	font: 10px 'Lucida Grande', Verdana, arial, sans-serif;
+	font-weight: bold;
+}
+
+/* SIDEBAR stuff */
+
+.box {
+	background-color: #fff;
+	margin:0 0 18px 0;
+}
+
+.box p, .box img, #firstbox p {
+	margin: 0 14px 8px 14px;
+}
+
+#menu{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+#menu{
+	/*border: 1px solid #ff0000;*/
+}
+
+#menu ul {
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+#menu ul li {
+	list-style: none;
+}
+
+#menu ul li a {
+	display: block;
+	width: 100%;
+}
+
+#menu ul li ul{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+
+#search div{
+	margin-left: 8px;
+	margin-top: 20px;
+}
+
+#sidebar a:hover{ color: #478D1E; text-decoration: none; }
+#p.a:hover{ color: #ff0000; text-decoration: none; }
+/* remove .norm rules if number of posts in category is not used */ 
+/* should remove class='norm' from sidebar.php first */
+
+#sidebar ul.norm li a {
+	display: inline;
+}
+
+#sidebar ul.norm li {
+	color: #999;
+}
+
+/* remove until here */
+
+#sidebar ul li a:hover {
+	/* background-color: #e6e6e6; */
+}
+
+#sidebar ul.norm li a:hover {
+	background-color: transparent;
+}
+
+#sidebar ul li a.feed {
+	background-image: url(./img/feed-icon-10x10.gif);
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+	padding-left: 18px;
+	width: auto;
+}
+
+#souvenirs {
+	margin-top: 35px;
+	text-align: center;
+}
+
+#souvenirs img {
+	margin-bottom: 30px;
+}
+
+.footer { clear: both; 	text-align: center;
+	background-image:url(./img/footer.jpg);
+	background-repeat: no-repeat;
+	line-height: 1.8em;	
+	height:20px;
+	width: 724px;
+	/* border-top: 1px solid #878686; */
+}
+
+.footertxt{
+	color: #808080;	
+	margin-left: 120px;
+	margin-top: 0px;
+	text-align:left;
+}
+
+a.footerlink:link { color: #808080; text-decoration: none; }
+a.footerlink:visited { color: #808080; text-decoration: none; }
+a.footerlink:hover { color: #478D1E; text-decoration: none; }
+a.footerlink:active { color: #808080; text-decoration: none; }
+
+
+
+
+
+p.error {
+	margin-top: 16px;
+	font-weight: bold;
+	color: #900;
+}
+
+a#totop {
+	display: block;
+}
+
+div.post p.nocomments {
+	margin: 0;
+	color: #666;
+	text-align: center;
+}
+
+
+#lightbox{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+	}
+
+#lightbox a img{ border: none; }
+
+#outerImageContainer{
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	}
+
+#imageContainer{
+	padding: 10px;
+	}
+
+#loading{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	}
+#hoverNav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	}
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{
+	width: 49%;
+	height: 100%;
+	background: transparent url(./images/blank.gif) no-repeat;
+	display: block;
+	}
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(./images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(./images/nextlabel.gif) right 15% no-repeat; }
+
+
+#imageDataContainer{
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	}
+
+#imageData{
+	padding:0 10px;
+	}
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em;	}	
+		
+#overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	}
+	
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+
+* html>body .clearfix {
+	display: inline-block; 
+	width: 100%;
+	}
+
+* html .clearfix {
+	height: 1%;
+	}	
+#content_start {position: absolute;left: -10000px;};
